@@ -118,11 +118,11 @@ async function start() {
   await db.initDB();
   app.listen(PORT, '0.0.0.0', () => {
     console.log(`=======================================================`);
-    console.log(`🚀 NextCollege Platform ejecutándose en puerto ${PORT}`);
-    console.log(`   - E-commerce:  http://localhost:${PORT}/`);
-    console.log(`   - PWA Mobile:  http://localhost:${PORT}/app`);
-    console.log(`   - Panel Admin: http://localhost:${PORT}/admin`);
-    console.log(`   - API Health:  http://localhost:${PORT}/api/health`);
+    console.log(`🍔 Hamburger Rapid Platform ejecutándose en puerto ${PORT}`);
+    console.log(`   - Landing E-commerce:  http://localhost:${PORT}/`);
+    console.log(`   - PWA Mobile App:     http://localhost:${PORT}/app`);
+    console.log(`   - Dashboard Admin:    http://localhost:${PORT}/admin`);
+    console.log(`   - API Health & Metrics: http://localhost:${PORT}/api/health`);
     console.log(`=======================================================`);
   });
 }
